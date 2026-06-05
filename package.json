@@ -1,0 +1,7 @@
+{
+  "name": "nandhana-cicd-app",
+  "version": "1.0.0",
+  "scripts": {
+    "test": "echo Test Passed"
+  }
+}

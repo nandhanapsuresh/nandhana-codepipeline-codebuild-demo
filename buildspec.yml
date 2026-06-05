@@ -1,0 +1,19 @@
+version: 0.2
+
+phases:
+  install:
+    commands:
+      - echo Installing dependencies
+
+  build:
+    commands:
+      - echo Build Started
+      - node index.js
+
+  post_build:
+    commands:
+      - echo Build Completed Successfully
+
+artifacts:
+  files:
+    - '**/*'
